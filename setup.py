@@ -20,6 +20,6 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     py_modules=['pytrie'],
-    install_requires=['sortedcontainers'],
+    install_requires=['sortedcontainers==1.5.7'],
     test_suite='tests',
 )
